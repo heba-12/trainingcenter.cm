@@ -1,0 +1,217 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+<title>training center in PNU</title>
+<asp:ContentPlaceHolder id="ContentPlaceHolder2" runat="server">
+</asp:ContentPlaceHolder>
+<style type="text/css">
+    #File1
+    {
+        height: 49px;
+    }
+    .style1
+    {
+        width: 279px;
+        height: 219px;
+        margin-top: 43px;
+    }
+    .style5
+    {
+        width: 400px;
+        height: 292px;
+    }
+    .style6
+    {
+            width: 118px;
+            height: 94px;
+        }
+        </style>
+</head>
+<body>
+    <form id="form2" runat="server">
+    <div align="center" 
+        
+        style="padding: 100px; margin: 100px; background-position: 100px center; border: thick double #006699; font-weight: bold; color: #009999; font-size: x-large; font-family: 'TImes New Roman', Times, serif; height: 1905px; width: 1043px; background-color: #DDF7F7; background-repeat: no-repeat; background-attachment: fixed; float: none; table-layout: fixed; border-collapse: separate;" 
+        class="style1">
+        <p align="right">
+            <a href="logup.aspx"><img align="right" alt="" class="style6" src="ln.png" /></a></p>
+        <hr style="height: 5px; color: #009999; font-weight: bold; font-size: x-large;" 
+            noshade="noshade" size="199" />
+        
+        
+        
+        <br />
+        <img alt="" class="style5" src="l.jpg" /><br />
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<hr 
+            style="height: 5px; color: #006A6A; font-weight: bold; font-size: x-large;" 
+            noshade="noshade" size="199" />
+        <asp:Menu ID="Menu2" runat="server" BackColor="#009999" BorderColor="#005E5E" 
+            DisappearAfter="1000" DynamicHorizontalOffset="2" Font-Names="Verdana" 
+            Font-Size="0.8em" ForeColor="Black" Height="50px" ondatabound="Page_Load" 
+            Orientation="Horizontal" StaticSubMenuIndent="10px" Width="1003px" 
+            BorderStyle="Solid" BorderWidth="5px" CssClass="style1">
+            <DynamicHoverStyle BackColor="#284E98" ForeColor="White" />
+            <DynamicMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+            <DynamicMenuStyle BackColor="#B5C7DE" />
+            <DynamicSelectedStyle BackColor="#507CD1" />
+            <Items>
+                <asp:MenuItem NavigateUrl="~/home.aspx" Text="Home" Value="HOME">
+                </asp:MenuItem>
+                <asp:MenuItem Text="Training supervisors in PNU" 
+                    Value="Training supervisors in PNU" 
+                    NavigateUrl="~/Training supervisors in PNU.aspx">
+                    <asp:MenuItem NavigateUrl="~/IS.aspx" Text="Information systems" 
+                        Value="IS"></asp:MenuItem>
+                    <asp:MenuItem NavigateUrl="~/CS.aspx" Text="Computer Science" 
+                        Value="New Item">
+                    </asp:MenuItem>
+                    <asp:MenuItem NavigateUrl="~/IT.aspx" Text="Technical information " 
+                        Value="New Item">
+                    </asp:MenuItem>
+                </asp:MenuItem>
+                <asp:MenuItem NavigateUrl="~/conactus.aspx" Text="Contact us" 
+                    Value="Contact us"></asp:MenuItem>
+                <asp:MenuItem NavigateUrl="~/FAQ.aspx" Text="FAQ" Value="FAQ">
+                </asp:MenuItem>
+            </Items>
+            <StaticHoverStyle BackColor="#284E98" ForeColor="White" />
+            <StaticMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+            <StaticSelectedStyle BackColor="#507CD1" />
+        </asp:Menu>
+        <br clear="all" />
+        <div align="center" 
+        
+            style="font-family: 'TImes New Roman', Times, serif; font-size: x-large; font-weight: bold; font-style: normal; font-variant: normal; color: #CCFFFF; width: 1000px;">
+        <asp:ContentPlaceHolder id="ContentPlaceHolder3" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+    </div>
+&nbsp;</form>
+    <p>
+        &nbsp;</p>
+    <p>
+        &nbsp;</p>
+    <p>
+        &nbsp;</p>
+    <p>
+        &nbsp;</p>
+    <p>
+        &nbsp;</p>
+    <p>
+        &nbsp;</p>
+    <p>
+        &nbsp;</p>
+    <p>
+        &nbsp;</p>
+    <p>
+        &nbsp;</p>
+    <p>
+        &nbsp;</p>
+    <p>
+        &nbsp;</p>
+    </body>
+</html>
